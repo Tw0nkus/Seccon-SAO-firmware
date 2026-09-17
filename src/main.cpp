@@ -21,10 +21,10 @@
 #define CHALLENGE2_VISIBLE_MS 1000
 
 const char challenge1Flag[] PROGMEM =
-    "FLAG{I2C1_4b881479437795f9d3ee4982afce64be}";
+    "FLAG{I2C1_********************************}";
 
 const char challenge2Flag[] PROGMEM =
-    "FLAG{I2C2_52c263a749aaa7b76c1a2eb11bb8d45a}";
+    "FLAG{I2C2_********************************}";
 
 constexpr uint8_t CHALLENGE1_LENGTH =
     sizeof(challenge1Flag) - 1;
